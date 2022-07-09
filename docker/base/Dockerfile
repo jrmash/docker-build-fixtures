@@ -1,0 +1,4 @@
+FROM jrmash/hello-world:latest
+
+ENV IMAGE_VERSION_FULL=1.0.0
+ENV IMAGE_VERSION_SHORT=1
