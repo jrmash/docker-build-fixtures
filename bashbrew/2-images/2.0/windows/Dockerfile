@@ -1,0 +1,4 @@
+FROM hello-world:nanoserver-ltsc2022
+
+ENV IMAGE_VERSION_FULL=2.0.0
+ENV IMAGE_VERSION_SHORT=2.0

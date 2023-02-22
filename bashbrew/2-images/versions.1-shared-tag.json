@@ -1,0 +1,37 @@
+{
+  "directory": "bashbrew/2-images",
+  "generated": "Wed Feb 1, 2023 PST 00:00:00",
+  "maintainers": [
+    "Test User 1 <7087791+test-user-1@users.noreply.github.com> (@test-user-1)"
+  ],
+  "repository": "git@github.com:jrmash/docker-build-fixtures.git",
+  "versions": {
+    "2.0": {
+      "targets": {
+        "linux": {
+          "image": "2-images:2.0-linux",
+          "sharedTags": [
+            "2.0.0"
+          ],
+          "uniqueTags": [
+            "2.0.0-linux",
+            "2.0-linux",
+            "linux"
+          ]
+        },
+        "windows": {
+          "image": "2-images:2.0-windows",
+          "sharedTags": [
+            "2.0.0"
+          ],
+          "uniqueTags": [
+            "2.0.0-windows",
+            "2.0-windows",
+            "windows"
+          ]
+        }
+      },
+      "version": "2.0.0"
+    }
+  }
+}
