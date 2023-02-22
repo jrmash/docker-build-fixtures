@@ -1,0 +1,26 @@
+{
+  "directory": "bashbrew/1-image",
+  "generated": "Wed Feb 1, 2023 PST 00:00:00",
+  "maintainers": [
+    "Test User 1 <7087791+test-user-1@users.noreply.github.com> (@test-user-1)"
+  ],
+  "repository": "git@github.com:jrmash/docker-build-fixtures.git",
+  "versions": {
+    "1.0": {
+      "targets": {
+        "linux": {
+          "architectures": [
+            "arm32v6",
+            "arm32v7"
+          ],
+          "image": "1-image:1.0",
+          "uniqueTags": [
+            "1.0.0",
+            "1.0"
+          ]
+        }
+      },
+      "version": "1.0.0"
+    }
+  }
+}

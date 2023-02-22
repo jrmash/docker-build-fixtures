@@ -1,0 +1,8 @@
+{
+  "directory": "bashbrew/hello-world",
+  "generated": "Wed Feb 1, 2023 PST 00:00:00",
+  "maintainers": [
+    "J.R. Mash <2574997+jrmash@users.noreply.github.com> (@jrmash)"
+  ],
+  "repository": "git@github.com:jrmash/docker-build-fixtures.git"
+}
