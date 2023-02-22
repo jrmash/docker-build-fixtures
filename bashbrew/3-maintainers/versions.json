@@ -1,0 +1,8 @@
+{
+  "maintainers": [
+    "Test User 1 <7087791+test-user-1@users.noreply.github.com> (@test-user-1)",
+    "Test User 4 <60760253+test-user-4@users.noreply.github.com> (@test-user-4)",
+    "Test User 7 <38479628+test-user-7@users.noreply.github.com> (@test-user-7)"
+  ],
+  "repository": "git@github.com:jrmash/docker-build-fixtures.git"
+}
