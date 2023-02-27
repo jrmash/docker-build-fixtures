@@ -1,0 +1,65 @@
+{
+  "directory": "bashbrew/hello-world",
+  "generated": "Wed Feb 1, 2023 PST 00:00:00",
+  "maintainers": [
+    "J.R. Mash <2574997+jrmash@users.noreply.github.com> (@jrmash)"
+  ],
+  "repository": "git@github.com:jrmash/docker-build-fixtures.git",
+  "versions": {
+    "1.0": {
+      "targets": {
+        "linux": {
+          "architectures": [
+            "amd64"
+          ],
+          "image": "hello-world:1.0",
+          "uniqueTags": [
+            "1.0.0",
+            "1.0"
+          ]
+        }
+      },
+      "version": "1.0.0"
+    },
+    "2.0": {
+      "targets": {
+        "linux": {
+          "architectures": [
+            "amd64"
+          ],
+          "image": "hello-world:2.0-linux",
+          "sharedTags": [
+            "2.0.0",
+            "2.0",
+            "latest"
+          ],
+          "uniqueTags": [
+            "2.0.0-linux",
+            "2.0-linux",
+            "latest-linux"
+          ]
+        },
+        "windows": {
+          "architectures": [
+            "windows-amd64"
+          ],
+          "constraints": [
+            "nanoserver-ltsc2022"
+          ],
+          "image": "hello-world:2.0-windows",
+          "sharedTags": [
+            "2.0.0",
+            "2.0",
+            "latest"
+          ],
+          "uniqueTags": [
+            "2.0.0-windows",
+            "2.0-windows",
+            "latest-windows"
+          ]
+        }
+      },
+      "version": "2.0.0"
+    }
+  }
+}
