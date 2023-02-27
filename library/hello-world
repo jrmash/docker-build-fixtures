@@ -1,0 +1,20 @@
+GitRepo: git@github.com:jrmash/docker-build-fixtures.git
+Maintainers: J.R. Mash <2574997+jrmash@users.noreply.github.com> (@jrmash)
+
+Tags: 1.0.0, 1.0
+Architectures: amd64
+GitCommit: 1908c17062620377923056b874a4a9389cc73c43
+Directory: bashbrew/hello-world/1.0/linux
+
+Tags: 2.0.0-linux, 2.0-linux, latest-linux
+SharedTags: 2.0.0, 2.0, latest
+Architectures: amd64
+GitCommit: 1908c17062620377923056b874a4a9389cc73c43
+Directory: bashbrew/hello-world/2.0/linux
+
+Tags: 2.0.0-windows, 2.0-windows, latest-windows
+SharedTags: 2.0.0, 2.0, latest
+Architectures: windows-amd64
+Constraints: nanoserver-ltsc2022
+GitCommit: 1908c17062620377923056b874a4a9389cc73c43
+Directory: bashbrew/hello-world/2.0/windows
